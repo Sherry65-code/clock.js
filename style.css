@@ -1,0 +1,51 @@
+#clock{
+background: radial-gradient(rgb(255, 96, 123) , rgb(172, 47, 255));
+    color: aliceblue;
+    position: absolute;
+    padding: 100px 100px;
+    border-radius: 50%;
+    left: 100px;
+    top: 100px;
+    border: 8px solid rgba(0, 247, 95, 0.329);
+    box-shadow: 0px 0px 50px 0px black;
+}
+#hour{
+    background-color: rgb(253, 229, 8);
+    position: absolute;
+    padding: 1px 15%;
+    top: 50%;
+    left: 50%;
+    border-radius: 18px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    box-shadow: 0px 0px 40px 0px black;
+}
+#min{
+    background-color: rgb(94, 255, 0);
+    position: absolute;
+    padding: 1px 23%;
+    top: 50%;
+    left: 102px;
+    border-radius: 18px;
+    transform: rotate(0deg);
+    transform-origin: 0 0;
+    box-shadow: 0px 0px 40px 0px black;
+}
+#sec{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    padding: 1px 23%;
+    
+    top: 50%;
+    left: 102px;
+    border-radius: 18px;
+    transform: rotate(0deg);
+    transform-origin: 0 0;
+    box-shadow: 0px 0px 40px 0px black;
+}
+body{
+    background-image: url('https://cdn130.picsart.com/344684714057201.jpg?to=crop&type=webp&r=1000x1333&q=95&width=1920');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
